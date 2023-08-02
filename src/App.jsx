@@ -31,16 +31,16 @@ function App() {
 
   return (
     <main className='w-full h-screen bg-gray-400'>
-      <div className="w-full h-20">
+      <div className="w-full h-[5rem]">
         <Navbar />
       </div>
-      <div className="flex h-[calc(95vh-5rem)]">
+      <div className="flex h-[calc(100vh-5rem)]">
         <div className="left w-1/2 grid place-items-center">
           <form onSubmit={handleSubmit} className='w-[400px] rounded border-2 p-4 px-6'>
             <h1 className='text-3xl font-semibold text-center mb-4'>Registration Form</h1>
 
             <div className='mb-3'>
-              <label className='block mb-1' htmlFor="fullName">Full Name:</label>
+              <label className='block mb-1' htmlFor="fullName">Full Name</label>
               <input
                 type="text"
                 id="fullName"
@@ -53,7 +53,7 @@ function App() {
             </div>
 
             <div className='mb-3'>
-              <label className='block mb-1' htmlFor="email">Email:</label>
+              <label className='block mb-1' htmlFor="email">Email</label>
               <input
                 type="email"
                 id="email"
@@ -66,7 +66,7 @@ function App() {
             </div>
 
             <div className='mb-3'>
-              <label className='block mb-1' htmlFor="websiteLink">Website Link:</label>
+              <label className='block mb-1' htmlFor="websiteLink">Website Link</label>
               <input
                 type="url"
                 id="websiteLink"
@@ -79,7 +79,7 @@ function App() {
             </div>
 
             <div className='mb-3'>
-              <label className='block mb-1' htmlFor="imageLink">Image Link:</label>
+              <label className='block mb-1' htmlFor="imageLink">Image Link</label>
               <input
                 type="url"
                 id="imageLink"
@@ -91,7 +91,7 @@ function App() {
             </div>
 
             <div className='mb-3'>
-              <label>Gender:</label>
+              <label>Gender</label>
               <div className="flex gap-5">
                 <label className='flex items-center gap-1'>
                   <input
@@ -133,7 +133,7 @@ function App() {
             </div>
 
             <div className='mb-3'>
-              <label>Skills:</label>
+              <label>Skills</label>
               <div className="flex flex-wrap gap-4">
                 <label className='flex items-center gap-1'>
                   <input
